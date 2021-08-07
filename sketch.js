@@ -28,6 +28,8 @@ function setup() {
   bow.addImage(bowImage); 
   bow.scale = 1;
   
+  text("Score: "+ score, 500,50);
+  score = 0;
 }
 
 function draw() {
