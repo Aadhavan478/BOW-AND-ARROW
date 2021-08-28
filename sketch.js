@@ -28,7 +28,7 @@ function setup() {
   bow.addImage(bowImage); 
   bow.scale = 1;
   
-  text("Score: "+ score, 500,50);
+  text("Score: "+ score, 300,50);
   score = 0;
 }
 
